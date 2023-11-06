@@ -130,7 +130,8 @@ module.exports = {
         // set to true to preserve working directory when creating splits or tabs
         preserveCWD: true,
         // for advanced config flags please refer to https://hyper.is/#cfg
-      catppuccinTheme: 'Mocha'
+        catppuccinTheme: 'Mocha',
+        opacity: 0.9
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
@@ -140,8 +141,8 @@ module.exports = {
     //   `project#1.0.1`
     plugins: [
       'hyper-statusline-extended',
-      'hyper-opacity',
-      'hypurr#latest'
+      'hypurr#latest',
+      'hyper-opacity'
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here

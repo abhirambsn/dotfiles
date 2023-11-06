@@ -1,0 +1,1 @@
+complete --command kalictl --no-files --arguments "(env _KALICTL_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=get-args _TYPER_COMPLETE_ARGS=(commandline -cp) kalictl)" --condition "env _KALICTL_COMPLETE=complete_fish _TYPER_COMPLETE_FISH_ACTION=is-args _TYPER_COMPLETE_ARGS=(commandline -cp) kalictl"

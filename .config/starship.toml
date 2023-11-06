@@ -1,0 +1,17 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+add_newline = true
+format = '$all'
+
+[username]
+show_always = true
+style_root = 'bold red'
+style_user = 'bold bright-blue'
+format = '[$user]($style) @ '
+
+[directory]
+style = 'bold bright-purple'
+
+[hostname]
+ssh_only = false
+trim_at = '.'
+style = 'bold green'
